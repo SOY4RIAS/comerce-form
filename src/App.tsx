@@ -1,4 +1,4 @@
-import React, { useEffect, useGlobal } from 'reactn'
+import React from 'reactn'
 
 const App: React.FC = () => {
   console.log(process.env)
