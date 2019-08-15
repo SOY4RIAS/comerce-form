@@ -1,7 +1,8 @@
-import React from 'react'
-import './App.css'
+import React, { useEffect, useGlobal } from 'reactn'
 
 const App: React.FC = () => {
+  console.log(process.env)
+
   return (
     <div className='App'>
       <header className='App-header'>
