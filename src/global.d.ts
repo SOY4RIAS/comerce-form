@@ -19,6 +19,7 @@ declare module 'reactn/default' {
   }
 
   export interface State {
-    user: UserState
+    user: UserState,
+    number: Number
   }
 }
